@@ -1,5 +1,4 @@
 import 'tailwindcss/tailwind.css'
-import HomeDisclosure from '../Component/HomeDisclosure'
 import { AuthProvider } from '../Contexts/AuthContext'
 
 

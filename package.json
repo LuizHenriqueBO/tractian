@@ -10,7 +10,6 @@
   "dependencies": {
     "@headlessui/react": "1.2.0",
     "@heroicons/react": "1.0.1",
-    "@types/antd": "^1.0.0",
     "antd": "^5.1.4",
     "axios": "^1.2.1",
     "highcharts": "^10.3.2",
@@ -24,6 +23,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/antd": "^1.0.0",
     "@types/cookie": "^0.5.1",
     "@types/node": "15.6.0",
     "@types/react": "17.0.6",
