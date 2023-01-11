@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start"
   },
   "dependencies": {
@@ -20,7 +20,8 @@
     "react-dom": "17.0.2",
     "react-hook-form": "^7.41.1",
     "styled-components": "^5.3.6",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "cross-env": "^7.0.3"
   },
   "devDependencies": {
     "@types/antd": "^1.0.0",
