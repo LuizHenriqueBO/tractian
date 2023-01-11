@@ -3,9 +3,9 @@ import Head from 'next/head'
 import { GetServerSideProps } from 'next'
 import { parseCookies } from 'nookies'
 import { Breadcrumb, Layout, theme } from 'antd';
-import { getAPIClient } from '../src/Services/axios'
-import ListAssets from '../src/Component/ListAssets'
-import Menu from '../src/Component/Menu';
+import { getAPIClient } from '../Services/axios'
+import ListAssets from '../Component/ListAssets'
+import Menu from '../Component/Menu';
 
 const { Content } = Layout;
 

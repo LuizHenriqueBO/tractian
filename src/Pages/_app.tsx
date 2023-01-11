@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
-import HomeDisclosure from '../src/Component/HomeDisclosure'
-import { AuthProvider } from '../src/Contexts/AuthContext'
+import HomeDisclosure from '../Component/HomeDisclosure'
+import { AuthProvider } from '../Contexts/AuthContext'
 
 
 function MyApp({ Component, pageProps }) {

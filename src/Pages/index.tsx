@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { LockClosedIcon } from '@heroicons/react/solid'
 import { useForm } from 'react-hook-form'
 import { useContext } from 'react';
-import { AuthContext } from '../src/Contexts/AuthContext';
+import { AuthContext } from '../Contexts/AuthContext';
 
 export default function Home() {
 

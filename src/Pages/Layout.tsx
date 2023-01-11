@@ -5,8 +5,8 @@ import Router from 'next/router';
 import { parseCookies } from 'nookies'
 import { Breadcrumb, Layout as LayoutApp, Menu as MenuAntd, theme } from 'antd';
 import { LineChartOutlined, HomeOutlined, TeamOutlined, GoldOutlined, BankOutlined } from '@ant-design/icons';
-import { getAPIClient } from '../src/Services/axios'
-import ListAssets from '../src/Component/ListAssets'
+import { getAPIClient } from '../Services/axios'
+import ListAssets from '../Component/ListAssets'
 
 const { Content, Sider } = LayoutApp;
 

@@ -2,11 +2,11 @@ import { Fragment, useContext, useEffect } from 'react'
 import Head from 'next/head'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
-import { AuthContext } from '../src/Contexts/AuthContext'
-import { api } from '../src/Services/api'
+import { AuthContext } from '../Contexts/AuthContext'
+import { api } from '../Services/api'
 import { GetServerSideProps } from 'next'
 import { parseCookies } from 'nookies'
-import { getAPIClient } from '../src/Services/axios'
+import { getAPIClient } from '../Services/axios'
 
 const navigation = ['Dashboard', 'Team', 'Projects', 'Calendar', 'Reports']
 const profile = ['Your Profile', 'Settings']

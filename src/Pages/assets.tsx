@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import { GET_ASSETS } from '../src/Services/api'
+import { GET_ASSETS } from '../Services/api'
 import { Breadcrumb, Layout, theme, Space,  Avatar, List, Row, Col, Tag } from 'antd';
-import AssetChart from '../src/Component/AssetChart'
+import AssetChart from '../Component/AssetChart'
 import { LikeOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
-import { AssetsType } from '../src/Interface/AssetsType'
-import Menu from '../src/Component/Menu'
-import Image from '../src/Component/Image'
+import { AssetsType } from '../Interface/AssetsType'
+import Menu from '../Component/Menu'
+import Image from '../Component/Image'
 
 const { Content } = Layout;
 
